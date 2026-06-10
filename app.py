@@ -19,7 +19,7 @@ if uploaded:
         img_array = np.array(image)
         img_bgr = cv2.cvtColor(img_array, cv2.COLOR_RGB2BGR)
 
-        model = YOLO("runs/detect/train7/weights/best.pt")
+        model = YOLO("best.pt")
         results = model(img_bgr, conf=0.25)
 
         reader = easyocr.Reader(['en'])
