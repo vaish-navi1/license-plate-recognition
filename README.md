@@ -18,4 +18,4 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ## Live Demo
-[Click Here](YOUR_STREAMLIT_URL)
+https://license-plate-recognition-drinulsyajgpqjqwt9fyia.streamlit.app/
